@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <h1>intelbras</h1>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <h2>Teste Login/Cadastro</h2>
+            <p>Objetivo: Documentar os testes realizados com o Robot Framework</p>
+            <p>Setor Responsável: Cameras</p>
+            <h2>Requisitos</h2>
+            <p><strong>- Robot Framework</strong></p>
+            <p><strong>- Python </strong></p>
+            <p><strong>- seleniumLibrary</strong></p>
+
+            <h2>Passos</h2>
+
+            <p>Teste o funcionamento do login como do cadastro, utilizando o robotframework</p>
+
+        </div>
+        <div class="card" onclick="toggleCard(this)">
+            <h3>Cenário 1 (Cadastro)- Cadastro bem-sucedido:
+            </h3>
+            <p>Verifica se o Cadastro funciona com credenciais válidas.
+            </p>
+            <!---<img src="img-cad.png" alt="Tela/a/ser/testada">-->
+
+            <p>Tela de cadrastro: <a href="https://teste-estagiarios.vercel.app/password/signup">Cadastro</a> </p>
+
+            <br>
+            <p>O teste coloca credenciais válidas e verifica o funcionamento do código./p>
+            <br>
+
+            <p><a href="https://github.com/marcos-j-ferreira/Test-robotframework.git">Repositorio do teste</a></p>
+            
+        </div>
+        <div class="card" onclick="toggleCard(this)">
+            <h3>Cenário 2 (Cadastro) - Campos obrigatórios:
+            </h3>
+            <p>Verifica se os campos est'ao sendo obrigatórios, antes de passar
+            </p>
+            <!---<img src="img-cad.png" alt="Tela/a/ser/testada">-->
+
+            <p>Tela de cadrastro: <a href="https://teste-estagiarios.vercel.app/password/signup">Compos</a> </p>
+
+            <br>
+            <p>Clicar no botão para entrar sem colocar os dados necessario, vefificando se o sistema pede dados obrigatórios/p>
+            <br>
+
+            <p><a href="https://github.com/marcos-j-ferreira/Test-robotframework.git">Repositorio do teste</a></p>
+            
+        </div>
+        <div class="card" onclick="toggleCard(this)">
+            <h3>Cenário 3 (Cadastro) - Validação do formato do E-mail:
+            </h3>
+            <p>Verifica se o sistema pede um formato do email certo
+            </p>
+            <!---<img src="img-cad.png" alt="Tela/a/ser/testada">-->
+
+            <p>Tela de Login: <a href="https://teste-estagiarios.vercel.app/password/login">Login</a> </p>
+
+            <br>
+            <p>O teste coloca um formato de e-mail inválido, tenta fazer o login e espera-se que não seja realizado/p>
+            <br>
+
+            <p><a href="https://github.com/marcos-j-ferreira/Test-robotframework.git">Repositorio do teste</a></p>
+            
+        </div>
+        <div class="card" onclick="toggleCard(this)">
+            <h3>Cenário 4 (Login) - Login bem-sucedido:
+
+            </h3>
+            <p>Testa se o sistema de login está funcionando como esperado, inserido dados validos
+            </p>
+            <!---<img src="img-cad.png" alt="Tela/a/ser/testada">-->
+
+            <p>Tela de <strong>LOGIN</strong> <a href="https://teste-estagiarios.vercel.app/password/signup">LOGIN</a> </p>
+
+            <br>
+            <p>O teste coloca credenciais válidas e verifica o funcionamento do código, ao fazer o login./p>
+            <br>
+
+            <p><a href="https://github.com/marcos-j-ferreira/Test-robotframework.git">Repositorio do teste</a></p>
+            
+        </div>
+        <div class="card" onclick="toggleCard(this)">
+            <h3>Cenário 5 (Login) - Login com credenciais erradas:
+            </h3>
+            <p>Verifica se o Cadastro não funciona com credenciais inválidas.
+            </p>
+            <!---<img src="img-cad.png" alt="Tela/a/ser/testada">-->
+
+            <p>Tela de Login: <a href="https://teste-estagiarios.vercel.app/password/login">Cadastro</a> </p>
+
+            <br>
+            <p>Inserido dados inválida e verifica o funcionamento do código./p>
+
+            <br>
+            <p>espera-se que o <strong>login</strong> não sej feito</p>
+
+            <p><a href="https://github.com/marcos-j-ferreira/Test-robotframework.git">Repositorio do teste</a></p>
+            
+        </div>
+        <div class="card" onclick="toggleCard(this)">
+            <h3>Cenário 6 (Login) - Login com conta inexistente:
+            </h3>
+            <p>Verifica se o Login funciona com dados inexistente.
+            </p>
+            <!---<img src="img-cad.png" alt="Tela/a/ser/testada">-->
+
+            <p>Tela de Login: <a href="https://teste-estagiarios.vercel.app/password/login">Cadastro</a> </p>
+
+            <br>
+            <p>São inseridos dados inexistentes no login, e não deve ser feito o login, garantindo a segurança do sistema</p>
+            <br>
+
+            <p><a href="https://github.com/marcos-j-ferreira/Test-robotframework.git">Repositorio do teste</a></p>
+            
+        </div>
+
+        
+    </div>
+
+
+
+    <footer>
+        <div class="footer-container">
+            <p><strong>Github:</strong> <a href="https://github.com/marcos-j-ferreira">Marcos Júnior</a></p>
+            <p><strong>Contato:</strong> marcos.j.lemes.2004@gmail.com</p>
+            <p><strong>Intelbras, sempre próxima.</strong></p>
+        </div>
+    </footer>
+
+</body>
+</html>
